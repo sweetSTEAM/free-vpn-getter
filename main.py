@@ -7,7 +7,6 @@ import hashlib
 import os
 import re
 import zipfile
-import signal
 from PIL import Image
 from bs4 import BeautifulSoup
 
@@ -188,7 +187,7 @@ print("Config downloaded and unpacked: ./", name, sep="")
 os.remove(cfg_filename)
 os.chdir(name)
 
-# Appending additional dns settings
+# Appending additional google DNS settings
 appends = [
     'dhcp-option DNS 8.8.8.8',
     'script-security 2',
