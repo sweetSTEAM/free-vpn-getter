@@ -1,8 +1,10 @@
 # Description
 
-Script for getting russian VPN for free for 24-hours. Script handling registration,
-captcha recognition (ImageMagic + tesseract-ocr), email conformation, loging in,
-downloading config and starting openvpn automatically. Just for fun.
+Script for automatic accounts registration and configs downloading in russian VPN service (free first 24-hours, than need to rerun). Script handling registration,
+captcha recognition (ImageMagic + tesseract-ocr), email confirmation, logging in,
+downloading configs and starting openvpn automatically.
+
+Just for fun.
 
 # Requirements
 
