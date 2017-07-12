@@ -9,12 +9,12 @@ Just for fun.
 # Requirements
 
 * python3.5
-* tesseract
+* tesseract-ocr 4 (from https://launchpad.net/~alex-p/+archive/ubuntu/tesseract-ocr) or the old one (but remove '--oem 0' flags in the main.py)
 * ImageMagick
 * openvpn
 * packages:
     * requests
-    * BeautifulSoup
+    * bs4
     * lxml
 
 # Usage
